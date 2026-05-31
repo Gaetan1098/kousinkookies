@@ -231,9 +231,12 @@ function ContactPage() {
                 Custom request: ________
               </p>
             </div>
-            <Button className="mt-6 w-full rounded-full bg-[#d08029] py-6 text-base font-black text-white hover:bg-[#b96d20]">
+            <a
+              href={`mailto:orders@kousinkookies.com?subject=Cookie%20Order%20Request&body=Hi%20Kousin%20Kookies%2C%0A%0AI%20would%20like%20to%20order%3A%0ACookie%20box%3A%20%0AQuantity%3A%20%0APickup%20date%3A%20%0ACustom%20request%3A%20`}
+              className="mt-6 block w-full rounded-full bg-[#d08029] py-4 text-center text-base font-black text-white hover:bg-[#b96d20] transition"
+            >
               Send Order Request
-            </Button>
+            </a>
           </CardContent>
         </Card>
       </div>
