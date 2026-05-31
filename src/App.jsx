@@ -7,7 +7,7 @@ function cn(...classes) {
 }
 
 function Card({ className, ...props }) {
-  return <div className={cn("rounded-xl border bg-white", className)} {...props} />;
+  return <div className={cn("rounded-xl border", className)} {...props} />;
 }
 
 function CardContent({ className, ...props }) {
