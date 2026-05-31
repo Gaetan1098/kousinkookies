@@ -31,9 +31,9 @@ const shopItems = [
     description: "Fresh homemade chocolate chip cookies packed in a small box.",
   },
   {
-    name: "Custom Cookie Box",
+    name: "Strawberry Crunch Box",
     price: "From $18",
-    description: "A mixed box for birthdays, family events, school treats, or gifts.",
+    description: "Made with real strawberries and a hint of lemon zest for a refreshing twist.",
   },
 ];
 
