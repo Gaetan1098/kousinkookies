@@ -209,7 +209,7 @@ function ContactPage() {
                 <Phone className="h-5 w-5 text-[#ffd99f]" /> +1 (416) 500-3094
               </a>
               <a className="flex items-center gap-3 rounded-2xl bg-white/10 p-4 font-bold transition hover:bg-white/15" href="mailto:orders@kousinkookies.com">
-                <Mail className="h-5 w-5 text-[#ffd99f]" /> orders@kousinkookies.com
+                <Mail className="h-5 w-5 text-[#ffd99f]" /> ardanfodjo02@gmail.com
               </a>
               <div className="flex items-center gap-3 rounded-2xl bg-white/10 p-4 font-bold">
                 <MapPin className="h-5 w-5 text-[#ffd99f]" /> Local homemade orders
