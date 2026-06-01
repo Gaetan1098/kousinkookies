@@ -176,7 +176,7 @@ function ShopPage({ setCurrentPage }) {
                 <p className="mt-3 leading-7 text-[#6b4b36]">{item.description}</p>
                 <div className="mt-5 flex items-center justify-between gap-4">
                   <p className="rounded-full bg-[#fff1db] px-4 py-2 font-black text-[#8b5b33]">{item.price}</p>
-                  <Button onClick={() => setCurrentPage("Contact")} className="rounded-full bg-[#d08029] font-black text-white hover:bg-[#b96d20]">
+                  <Button onClick={() => setCurrentPage("Contact")} className="rounded-full bg-[#d08029] px-6 py-2 font-black text-white hover:bg-[#b96d20]">
                     Order
                   </Button>
                 </div>
